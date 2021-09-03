@@ -1,0 +1,14 @@
+body{
+   background-image: url(../images/bg.jpg);
+   margin: 0;
+   background-attachment: fixed;
+}
+/* Debut Header */
+header div{
+    text-align: center;
+    color: white;
+}
+header img{
+    width: 70%;
+}
+/* Fin Header */
