@@ -8,7 +8,15 @@ header div{
     text-align: center;
     color: white;
 }
+header h1{
+    margin-bottom:0px;
+    
+}
+header p{
+    margin: 0;
+}
 header img{
+    margin-top: 20px;
     width: 100%;
 }
 /* Fin Header */
@@ -84,3 +92,18 @@ text-align: end;
 align-items: center;
 }
 /* Fin Section 3 */
+
+/* Debut Footer */
+footer{
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+footer i{
+    font-size: 30px;
+    padding: 0 5px;
+}
+footer a{
+    text-decoration: underline;
+    color: white;
+}
