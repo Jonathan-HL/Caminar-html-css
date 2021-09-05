@@ -55,3 +55,32 @@ section:nth-of-type(2) img{
     width: 40%;
 }
 /* Fin Section 2 */
+
+/*  Debut Section 3 */
+section:nth-of-type(3){
+    background-color:rgb(39, 39, 39);
+}
+section:nth-of-type(3) div{
+    display: flex;
+    flex: 1;
+}
+section:nth-of-type(3) img{
+    width: 100%;
+}
+section:nth-of-type(3) h4{
+    margin: 0 20%;
+}
+section:nth-of-type(3) p{
+    font-size:smaller;
+    font-weight: normal;
+}
+.blanc{
+background-color: white;
+align-items: center;
+}
+.noir{
+color: white;
+text-align: end;
+align-items: center;
+}
+/* Fin Section 3 */
