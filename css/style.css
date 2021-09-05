@@ -107,3 +107,17 @@ footer a{
     text-decoration: underline;
     color: white;
 }
+/* @Media */
+@media screen and (max-width : 600px) {
+    section:nth-of-type(2){
+        padding: 0;
+    }
+    section:nth-of-type(3) div,.blanc,.noir{
+        flex-direction: column;
+        text-align: justify;
+    }
+    section:nth-of-type(3) .noir{
+        order: 1;
+    }
+    
+}
